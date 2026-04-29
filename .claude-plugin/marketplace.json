@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "opencode-ai",
+  "description": "Delegate tasks to opencode from Claude Code.",
+  "owner": {
+    "name": "rgplvr",
+    "url": "https://github.com/rgplvr"
+  },
+  "plugins": [
+    {
+      "name": "opencode",
+      "description": "Delegate tasks to opencode from Claude Code",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
