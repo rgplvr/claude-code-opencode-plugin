@@ -5,13 +5,11 @@ Delegate tasks to [opencode](https://opencode.ai) from Claude Code for parallel 
 ## Install
 
 ```sh
-# 1. Add this marketplace to Claude Code
-/plugin install github:rgplvr/claude-code-opencode-plugin
+# 1. Add marketplace and install plugin
+claude plugin marketplace add rgplvr/claude-code-opencode-plugin
+claude plugin install opencode@opencode-ai
 
-# 2. Reload plugins
-/reload-plugins
-
-# 3. Ensure opencode is installed
+# 2. Ensure opencode is installed
 npm install -g opencode-ai
 ```
 
@@ -64,5 +62,5 @@ Offload independent work to opencode while Claude Code continues with other task
 ## Uninstall
 
 ```sh
-/plugin remove opencode
+claude plugin remove opencode@opencode-ai
 ```
